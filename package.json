@@ -4,6 +4,7 @@
     "description": "Rules for formatter and linter",
     "main": "index.js",
     "scripts": {
+        "cleanspace": "rm -rf node_modules",
         "install:linter:formatter": "npm i -D prettier @trivago/prettier-plugin-sort-imports eslint eslint-config-prettier eslint-import-resolver-typescript eslint-plugin-import ",
         "test": "echo \"Error: no test specified\" && exit 1",
         "prettier:format": "prettier --write \"./*{.js, json}\"",
